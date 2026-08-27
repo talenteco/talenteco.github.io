@@ -1,13 +1,16 @@
 body {
-    background-color: #f7f7f7;
+    background-color: #f0f4f8;
 }
 
 h1 {
-    color: #1a3e6f;
+    color: #ffffff;
+    background-color: #1a3e6f;
+    padding: 15px;
+    border-radius: 8px;
 }
 
 h3 {
-    color: #4a4a4a;
+    color: #2e5b9c;
 }
 
 a {
@@ -17,13 +20,15 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #d35400;
+    color: #e67e22;
 }
 
 table {
     background-color: #ffffff;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     margin-bottom: 15px;
+    border-radius: 6px;
+    overflow: hidden;
 }
 
 .tg-7btt, .tg-bobw {
@@ -32,15 +37,24 @@ table {
 }
 
 .tg-c3ow, .tg-8d8j {
-    background-color: #fafafa;
+    background-color: #eef5fb;
+}
+
+tbody tr:nth-child(even) td.tg-c3ow,
+tbody tr:nth-child(even) td.tg-8d8j {
+    background-color: #d6e9f8;
 }
 
 tr:hover td.tg-c3ow,
 tr:hover td.tg-8d8j {
-    background-color: #eaf1fb;
+    background-color: #ffe8cc;
+}
+
+b {
+    color: #1a3e6f;
 }
 
 hr {
     border: none;
-    border-top: 1px solid #ccc;
+    border-top: 2px solid #a9cce3;
 }
